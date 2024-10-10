@@ -1,0 +1,89 @@
+.hidden{
+    display: none;
+}
+
+.display {
+    display: flex;
+}
+
+/*.cell{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: antiquewhite;
+    text-decoration: solid;
+}*/
+
+.center {
+    text-align: center;
+}
+
+.bg {
+    background-color: grey;
+}
+
+
+/* Contenitore principale */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    font-family: 'Press Start 2P', cursive; /* Font stile retrò pixel */
+  }
+  
+  /* Titolo del gioco */
+  .title {
+    color: #00FF41; /* Colore verde neon stile anni '80 */
+    font-size: 32px;
+    text-shadow: 0 0 10px #00FF41, 0 0 20px #00FF41; /* Effetto glow neon */
+  }
+  
+  /* Testo per mostrare il risultato */
+  .result {
+    color: #FFF; /* Colore verde neon stile anni '80 */
+    font-size: 32px;
+    text-shadow: 0 0 10px #00FF41, 0 0 20px #00FF41; /* Effetto glow neon */
+  }
+  
+  /* Stile della tabella */
+  .table {
+    border-collapse: collapse;
+  }
+  
+  /* Celle della tabella */
+  .cell {
+    border: 2px solid #00FF41; /* Bordi neon */
+    padding: 0;
+  }
+  
+  /* Pulsante delle celle (caselle del gioco) */
+  .button {
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    color: #00FF41;
+    background-color: #000;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 5px #00FF41, 0 0 10px #00FF41; /* Effetto glow sul testo del bottone */
+  }
+  
+  /* Pulsante per resettare il gioco */
+  .resetButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #333;
+    border: 2px solid #00FF41;
+    cursor: pointer;
+    text-shadow: 0 0 5px #00FF41, 0 0 10px #00FF41;
+  }
+  
